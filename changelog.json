@@ -1,0 +1,39 @@
+[
+  {
+    "version": "3.0.0",
+    "title": "扩展化：World Lore Workbench",
+    "sections": [
+      {
+        "title": "重大变更",
+        "items": [
+          "改为 SillyTavern 扩展（worldloreworkbench）：bootstrap 直载，默认不进脚本树",
+          "设置迁至扩展变量；首次启用自动从旧「世界书管理器」脚本迁移 wb_manager"
+        ]
+      },
+      {
+        "title": "新功能",
+        "items": [
+          "标题栏显示版本号；打开面板自动检测 GitHub 更新，支持查看说明并一键更新后刷新酒馆"
+        ]
+      },
+      {
+        "title": "修复",
+        "items": [
+          "修复电脑端（含 Edge）打开时全屏/居中两档尺寸来回闪屏：全屏判定与预设备忘录一致，改用 matchMedia(max-width:1024px) 与 CSS @media 同源"
+        ]
+      }
+    ]
+  },
+  {
+    "version": "2.9.0",
+    "title": "修复桌面端打开闪屏",
+    "sections": [
+      {
+        "title": "修复",
+        "items": [
+          "全屏判定改用视口宽度，避免面板宽与全屏态互相喂养"
+        ]
+      }
+    ]
+  }
+]

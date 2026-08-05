@@ -1,0 +1,16 @@
+{
+  "display_name": "世界书工作台",
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "bootstrap.js",
+  "author": "Nancyindaeyo",
+  "version": "3.0.0",
+  "homePage": "https://github.com/Nancyindaeyo/worldloreworkbench",
+  "auto_update": true,
+  "hooks": {
+    "delete": "onDelete",
+    "disable": "onDisable",
+    "enable": "onEnable"
+  }
+}

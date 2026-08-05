@@ -1,0 +1,6 @@
+# 构建产物（开发时可本地生成，发版前 commit index.js）
+index.js.map
+*.LICENSE.txt
+
+# 若曾在本目录误装依赖
+node_modules/
