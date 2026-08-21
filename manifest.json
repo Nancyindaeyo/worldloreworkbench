@@ -5,7 +5,7 @@
   "optional": [],
   "js": "bootstrap.js",
   "author": "Nancyindaeyo",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "homePage": "https://github.com/Nancyindaeyo/worldloreworkbench",
   "auto_update": true,
   "hooks": {
@@ -14,3 +14,4 @@
     "enable": "onEnable"
   }
 }
+
